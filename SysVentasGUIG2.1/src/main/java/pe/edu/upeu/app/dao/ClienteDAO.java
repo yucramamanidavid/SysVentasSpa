@@ -70,7 +70,7 @@ public class ClienteDAO implements ClienteDaoI {
         int comit = 0;
         String sql = "UPDATE cliente SET "
                 + "nombrers=?, "
-                + "tipo=? "
+                + "tipo=?, "
                 + "tiempo=? "
                 + "WHERE dniruc=?";
         int i = 0;
