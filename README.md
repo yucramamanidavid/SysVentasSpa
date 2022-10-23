@@ -2,64 +2,52 @@
 # SysVentasSpa
 <hl>SysVentasSpa</hl>
 ```console
-
+Es un programa que nos ayuda a la gestion de servicios para un Spa, solo para los administradores.
 ```
 
-# Comandos para subir a Github desde Repositorio local de PC o Plataformas Online
+# Paricipantes del Proyecto
 
 ```console
-    1  git status
-    2  git add -A .
-    3  git status
-    4  git commit -a -m "Ejercicios condicionales"
-    5  git status
-    6  git pull
-    7  git push
-    8  history
+    1  Yucra Mamani David Robert (lider)
+    2  Camacho Jamachi Neil Johan (colider)
+    3  Paredes Aracayo Maykol Junior(integrante)
+    4  Yucra Mamani Joselyn Milagros(integrante)
 ```
 
-# Comandos Para actualizar cambios nuevos de Repositorio Remoto hacia Repositorio Local
+# Partes que hicieron los integrantes
 
 ```console
-    1  git pull
-```
+    1  Yucra Mamani David Robert:
+    Colons can be used to align columns.
 
-# Comandos para compilar varias clases
-
-```console
-    javac -d ./ ./*.java
-    javac -d . *.java
+|           Programo            |
+| ------------- |:-------------:|
+| main cliente  | estetic del panel de administaion de clientes | 
+| FondoPanel    | FondoInicio   |  
+    # main cliente, estetic del panel de administaion de clientes, agregamos FondoPanel, FondoInicio
     
-    java subprogramas.ClaseGeneral
+    2  Camacho Jamachi Neil Johan: 
+    
+|           Programo                          |
+| ------------- |:---------------------------:|
+| administrador | Aumento la funcion de tiempo| 
+| MyButton      | PanelBorder                 |  
+
+Aumento la funcion de tiempo en el administrador de clientes, MyButton, PanelBorder
+    3  Paredes Aracayo Maykol Junior: 
+|           Programo                   |
+| ------------- |:--------------------:|
+| login         | Usuario y contraseña | 
+| ClienteDAO    | Conn                 |  
+
+    Mofico el "login" aumentando las funciones de usuario y contraseña, ClienteDAO, Conn, 
+    
+    4  Yucra Mamani Joselyn Milagros:
+|           Programo            |
+| ------------- |:-------------:|
+| CienteTO      | Base de datos | 
+| GUIManin      | CRUD          |  
+
+    Aumento una columna en la base de datos y realizo el CRUD,GUIManin, CienteTO
 ```
 
-# Proyectos de Tipo Maven
-```console
-    mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
-```
-# Pom.xml
-```xml
-	<properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-	</properties>
-    
-<build>
-  <plugins>
-    <plugin>
-    <!-- Build an executable JAR -->
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-jar-plugin</artifactId>
-    <version>2.4</version>
-    <configuration>
-    <archive>
-    <manifest>
-    <mainClass>pe.edu.upeu.app.App</mainClass>
-    </manifest>
-    </archive>
-    </configuration>
-    </plugin>
-  </plugins>
-</build>    
-    
-```
