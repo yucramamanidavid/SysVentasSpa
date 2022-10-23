@@ -78,8 +78,9 @@ public class ClienteDAO implements ClienteDaoI {
             ps = connection.prepareStatement(sql);
             ps.setString(++i, d.getNombresrs());
             ps.setString(++i, d.getTipo());
-            ps.setString(++i, d.getDniruc());
             ps.setString(++i, d.getTiempo());
+            ps.setString(++i, d.getDniruc());
+            
             comit = ps.executeUpdate();
         } catch (SQLException ex) {
             log.log(Level.SEVERE, "update", ex);
